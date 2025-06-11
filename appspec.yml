@@ -4,8 +4,7 @@ os: linux
 files:
   - source: target/HelloWorld-0.0.1-SNAPSHOT.war
     destination: /opt/tomcat/webapps/
-
-file_exists_behavior: OVERWRITE
+    file_exists_behavior: OVERWRITE
 
 hooks:
   ApplicationStop:
